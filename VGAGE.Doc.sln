@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VGAGE.Doc", "VGAGE.Doc\VGAGE.Doc.csproj", "{0E476A64-922A-4186-929B-8111B9A1CDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{9EF92264-A4E7-4266-B094-09890607764A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E476A64-922A-4186-929B-8111B9A1CDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E476A64-922A-4186-929B-8111B9A1CDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E476A64-922A-4186-929B-8111B9A1CDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E476A64-922A-4186-929B-8111B9A1CDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF92264-A4E7-4266-B094-09890607764A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF92264-A4E7-4266-B094-09890607764A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF92264-A4E7-4266-B094-09890607764A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF92264-A4E7-4266-B094-09890607764A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67BA0437-F7BE-4AB0-ABD0-DD3A408256CD}
+	EndGlobalSection
+EndGlobal

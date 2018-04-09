@@ -1,0 +1,45 @@
+﻿body {
+    padding-top: 3.5rem;
+}
+
+.navbar-nav .active {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav .nav-item:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+a {
+    cursor: pointer;
+}
+
+.dropdown .dropdown-menu .dropdown-item:not(.disabled):hover {
+    background-color: black;
+    color: white;
+}
+
+.search-box-Button {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+    .search-box-Button:hover {
+        background-color: black;
+        color: white;
+    }
+
+@media (max-width:600px) {
+    .w-32 {
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) {
+    .w-32 {
+        width: 32%;
+    }
+}

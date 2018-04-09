@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>@ViewData["Title"] - VGAGE.Doc</title>
+    <link href="~/bootstrap4/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/bootstrap4/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="~/home/index">公司品牌</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="~/home/index">
+                        <span class="oi oi-home"></span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户管理</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item">添加用户</a>
+                        <a class="dropdown-item">权限配置</a>
+                        <a class="dropdown-item" href="~/usermanage/index">用户管理</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 w-32">
+                <div class="input-group w-100">
+                    <input class="form-control border-right-0" type="text" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <div class="input-group-text border-left-0 search-box-Button">
+                            <span class="oi oi-magnifying-glass"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="container">
+        <p>&copy; Company 2017-2018</p>
+    </footer>
+    <script src="~/bootstrap4/js/jquery-3.3.1.min.js"></script>
+    <script src="~/bootstrap4/js/popper.min.js"></script>
+    <script src="~/bootstrap4/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
