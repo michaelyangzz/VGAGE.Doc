@@ -47,3 +47,16 @@ a {
         width: 32%;
     }
 }
+
+
+@media (max-width:600px) {
+    .w-login-50 {
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) {
+    .w-login-50 {
+        width: 50%;
+    }
+}

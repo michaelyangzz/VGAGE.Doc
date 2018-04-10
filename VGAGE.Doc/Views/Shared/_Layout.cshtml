@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="zh-CN">
+<html lang="zh-cn">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,16 +41,12 @@
                         <span class="oi oi-people"></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item"><span class="oi oi-plus"></span>添加用户</a>
+                        <a class="dropdown-item" href="~/Account/Register"><span class="oi oi-plus"></span>添加用户</a>
                         <a class="dropdown-item"><span class="oi oi-command"></span>权限配置</a>
                         <a class="dropdown-item" href="~/usermanage/index"><span class="oi oi-command"></span>用户管理</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color:white;">
-                        登陆 <span class="oi oi-account-login"></span>
-                    </a>
-                </li>
+      
                 @*<li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                登陆 <span class="oi oi-account-login"></span>
@@ -61,6 +57,8 @@
             </div>
         </li>*@
             </ul>
+
+            @await Html.PartialAsync("_LoginPartial")
         </div>
 
     </nav>

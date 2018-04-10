@@ -8,9 +8,9 @@ namespace VGAGE.Doc.Models.AccountViewModels
 {
     public class RegisterViewModel
     {
-        [Required(ErrorMessage ="邮箱为必填项")]
+        [Required(ErrorMessage ="{0}为必填项")]
         [EmailAddress]
-        [Display(Name = "")]
+        [Display(Name = "邮箱")]
         public string Email { get; set; }
 
         [Required]
