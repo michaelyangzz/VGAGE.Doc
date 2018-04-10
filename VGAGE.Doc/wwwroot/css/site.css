@@ -21,6 +21,10 @@ a {
     color: white;
 }
 
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
 .search-box-Button {
     cursor: pointer;
     background-color: white;
@@ -34,7 +38,7 @@ a {
 
 @media (max-width:600px) {
     .w-32 {
-        width: 100%;
+        width: 60%;
     }
 }
 

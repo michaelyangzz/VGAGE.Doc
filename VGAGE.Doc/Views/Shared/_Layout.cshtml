@@ -14,38 +14,55 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="~/home/index">公司品牌</a>
+        <a class="navbar-brand" href="~/home/index">Logo</a>
+        <form class="form-inline my-2 my-lg-0 w-32 ml-0 ml-md-5">
+            <div class="input-group w-100">
+                <input class="form-control border-right-0" type="text" placeholder="搜索" aria-label="Search">
+                <div class="input-group-append">
+                    <div class="input-group-text border-left-0 search-box-Button">
+                        <span class="oi oi-magnifying-glass"></span>
+                    </div>
+                </div>
+            </div>
+        </form>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="~/home/index">
                         <span class="oi oi-home"></span>
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户管理</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item">添加用户</a>
-                        <a class="dropdown-item">权限配置</a>
-                        <a class="dropdown-item" href="~/usermanage/index">用户管理</a>
+                    <a class="nav-link dropdown-toggle" title="用户管理" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="oi oi-people"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item"><span class="oi oi-plus"></span>添加用户</a>
+                        <a class="dropdown-item"><span class="oi oi-command"></span>权限配置</a>
+                        <a class="dropdown-item" href="~/usermanage/index"><span class="oi oi-command"></span>用户管理</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color:white;">
+                        登陆 <span class="oi oi-account-login"></span>
+                    </a>
+                </li>
+                @*<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               登陆 <span class="oi oi-account-login"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item"><span class="oi oi-pencil"></span>修改密码</a>
+                <a class="dropdown-item"><span class="oi oi-account-logout"></span>退出</a>
+            </div>
+        </li>*@
             </ul>
-            <form class="form-inline my-2 my-lg-0 w-32">
-                <div class="input-group w-100">
-                    <input class="form-control border-right-0" type="text" placeholder="Search" aria-label="Search">
-                    <div class="input-group-append">
-                        <div class="input-group-text border-left-0 search-box-Button">
-                            <span class="oi oi-magnifying-glass"></span>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </div>
+
     </nav>
 
     <main role="main">
